@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>how much (vnd edition)</title>
+  <link rel="stylesheet" href="./VNDhowmuch.css">
+</head>
+
+<body>
+  <h1>how much?</h1>
+  <img src="https://images.emojiterra.com/twitter/512px/1f1fb-1f1f3.png" style="width: 10%";/>
+  <h3>edition</h3>
+  <div class="app">
+    <form>
+      <input type="number" id="from_amount" placeholder="£">
+      <select name="from_currency">
+        <option>GBP</option>
+      </select>
+      <select name="to_currency">
+        <option>VND</option>
+      </select>
+      <p>is</p>
+      <p class="to_amount">₫0</p>
+    </form>
+  </div>
+  <div id="pho-counter"></div>
+
+  <script src='./config.js'></script>
+  <script src="./VNDhowmuch.js"></script>
+  <script src="./VNDphocounter.js"></script>
+</body>
+
+</html>
